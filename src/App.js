@@ -11,7 +11,7 @@ function App() {
       <Menu/>
       <BannerMain videoTitle={dataBase.categorias[0].videos[0].titulo}
        url={dataBase.categorias[0].videos[0].url}
-       videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}/>
+       videoDescription={""}/>
        <Carousel ignoreFirstVideo
        category={dataBase.categorias[0]}/>
        <Carousel category={dataBase.categorias[1]}/>
