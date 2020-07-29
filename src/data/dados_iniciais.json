@@ -1,183 +1,169 @@
 {
     "categorias": [
       {
-        "titulo": "Front End",
-        "link": "https://www.alura.com.br/formacao-front-end",
+        "titulo": "Inglês com Ask Jackie",
+        "link": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg",
         "cor": "#6BD1FF",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+          "text": "Canal da Ask Jackie no YouTube",
+          "url": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg"
         },
         "videos": [
           {
-            "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+            "titulo": "Aprenda o PRESENT PERFECT com U2! Feat. Miss Jill",
+            "url": "https://www.youtube.com/watch?v=36KQTSrunbo"
           },
           {
-            "titulo": "SEO com React",
-            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+            "titulo": "'You CAN talk?' ou 'You CAN'T talk?' - A pronúncia de CAN e CAN'T!",
+            "url": "https://www.youtube.com/watch?v=GPFqiyPYIhU"
           },
           {
-            "titulo": "Componentização com VanillaJS #AluraMais",
-            "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+            "titulo": "Qual é a diferença entre OTHER e ANOTHER?",
+            "url": "https://www.youtube.com/watch?v=OlowLiigZ3k"
           },
           {
-            "titulo": "Pare de chutar e aprenda a display: inline #01",
-            "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+            "titulo": "'TWO,' 'TO' e 'TOO' NÃO têm a mesma pronúncia!",
+            "url": "https://www.youtube.com/watch?v=yN4fqHT-UtU"
           },
           {
-            "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-            "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+            "titulo": "Qual é a diferença entre SOME and ANY?",
+            "url": "https://www.youtube.com/watch?v=zsUkXcYMZgk"
           },
           {
-            "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+            "titulo": "Quando comida NÃO é comida em inglês! 10 Expressões idiomáticas com comida!",
+            "url": "https://www.youtube.com/watch?v=Q-A60yx1yEw"
           },
           {
-            "titulo": "Novidades do Angular v9",
-            "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-          },
-          {
-            "titulo": "Base para aprender os frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-          }        
+            "titulo": "Qual é a diferença entre SOME and ANY?",
+            "url": "https://www.youtube.com/watch?v=zsUkXcYMZgk"
+          }          
         ]
       },
       {
-        "titulo": "Back End",
+        "titulo": "Low Code",
         "cor": "#00C86F",
         "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
+          "text": "Cursos de OutSystems com RafaOutSystems",
+          "url": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg"
         },
         "videos": [
           {
-            "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-            "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+            "titulo": "SIM: Programação Low-Code é o futuro!",
+            "url": "https://www.youtube.com/watch?v=Y0-YV669sks"
           },
           {
-            "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-            "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+            "titulo": "Realizando validações com Core Server-Side (OutSystems Low Code - Visual Development)",
+            "url": "https://www.youtube.com/watch?v=jQxHeVf2grc"
           },
           {
-            "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-            "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+            "titulo": "Desativando as validações",
+            "url": "https://www.youtube.com/watch?v=5knWrxKQklQ"
           },
           {
-            "titulo": "API: Dicionário do Programador",
-            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+            "titulo": "Monitoramento de aplicações nativo e descomplicado!",
+            "url": "https://www.youtube.com/watch?v=UaXMhYpmxGY"
           }, 
           {
-            "titulo": "Usando Git Direito",
-            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+            "titulo": "Como as Roles funcionam na Plataforma OutSystems - RafaOutSystems",
+            "url": "https://www.youtube.com/watch?v=HhEDQjvRnGM"
           }
         ]
       },
       {
-        "titulo": "Data Science e Inteligência Artificial",
+        "titulo": "Salesforce",
         "cor": "#9cd33b",
         "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/formacao-data-science"
+          "text": "Canal Salesforce Brasil",
+          "url": "https://www.youtube.com/c/CanalSalesforceBrasil/videos"
         },
         "videos": [
           {
-            "titulo": "Teste de Turing",
-            "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+            "titulo": "BEFORE TRIGGERS EM FLOWS - Spring '20 🏹 | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=cEjJpWUpSsM"
           },
           {
-            "titulo": "O que é Data Science?",
-            "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+            "titulo": "CRIE OBJETOS NO SALESFORCE À PARTIR DE UMA PLANILHA | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=aixGclakGJA"
           },
           {
-            "titulo": "Melhor forma de aprender Python",
-            "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+            "titulo": "🚨 ATUALIZAÇÃO CRÍTICA: NOVO APLICATIVO MÓVEL SALESFORCE 📱 | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=vHVckAeNrHo"
           },
           {
-            "titulo": "Como ingressar no mercado de Data Science?",
-            "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+            "titulo": "SISTEMA DE GERENCIAMENTO DE CONTEÚDO (CMS) NO SALESFORCE | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=deqvBX8Lv0k"
+          },
+          {
+            "titulo": "⚡ CONVERSOR DE CONFIGURAÇÕES DO LIGHTNING: TUDO EM UM SÓ LUGAR! 😍 | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=WINYZ1Op9tw"
+          },
+          {
+            "titulo": "UTILIZE AURA DESIGN TOKENS NOS SEUS LIGHTNING WEB COMPONENTS | Canal Salesforce Brasil",
+            "url": "https://www.youtube.com/watch?v=ulHagc2aMQg"
           }
         ]
       },
       {
-        "titulo": "Filmes",
-        "cor": "orange",
-        "videos": [
-          {
-            "titulo": "Interestellar",
-            "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-          },
-          {
-            "titulo": "Gattaca",
-            "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-          },
-          {
-            "titulo": "A Chegada",
-            "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-          },
-          {
-            "titulo": "Feitiço do Tempo",
-            "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-          }
-        ]
-      },
-      {
-        "titulo": "Games",
+        "titulo": "Bike",
         "cor": "red",
         "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/formacao-jogos-unity"
+          "text": "Owlaps",
+          "url": "https://www.youtube.com/c/owlaps/videos"
         },
         "videos": [
           {
-            "titulo": "Final Fantasy 7",
-            "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+            "titulo": "PANORAMIQUE, Chamrousse bike park, France",
+            "url": "https://www.youtube.com/watch?v=Oa5OJtq857E"
           },
           {
-            "titulo": "Assassins Creed Valhalla",
-            "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+            "titulo": "LE LOQUET, Champéry bike park, Switzerland",
+            "url": "https://www.youtube.com/watch?v=fe-16CY2dtM"
           },
           {
-            "titulo": "God of War 4",
-            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+            "titulo": "Final run #2: MAXIAVALANCHE AX 3 DOMAINES 2019 (round #4) Mass start Europe Cup",
+            "url": "https://www.youtube.com/watch?v=PMslx-Lf4qI"
           },
           {
-            "titulo": "Resident Evil 8",
-            "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+            "titulo": "MEGAVALANCHE 2019 WITH BROKEN SHIFTER & CRASHES! The craziest MTB massstart in the world",
+            "url": "https://www.youtube.com/watch?v=wYIvxEayJQE"
           },
           {
-            "titulo": "Pokémon Let's Go Pikachu/Eevee",
-            "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+            "titulo": "BARRAGE, La Bresse bike park, France",
+            "url": "https://www.youtube.com/watch?v=_fCqb9yikuw"
           }
         ]
       },
       {
-        "titulo": "Aprendendo a aprender tecnologia",
+        "titulo": "Cultura Russa",
         "cor": "#6b5be2",
         "link_extra": {
-          "text": "Curso sobre aprendizado na Alura",
-          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+          "text": "Canal Olga Do Brasil",
+          "url": "https://www.youtube.com/channel/UCAdWun5RCSwqE-n1FC9bpcQ"
         },
         "videos": [
           {
-            "titulo": "Como estudar melhor?",
-            "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+            "titulo": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
+            "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
           },
           {
-            "titulo": "Faculdade",
-            "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+            "titulo": "HÁBITOS BRASILEIROS MUITO ESTRANHOS | RUSSA EM CHOQUE | GRINGA FALA PORTUGUÊS! (субтитры)",
+            "url": "https://www.youtube.com/watch?v=76kAcvT-8ZM"
           },
           {
-            "titulo": "Frameworks",
-            "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+            "titulo": "POR QUE EU AMO O BRASIL | GRINGA RUSSA FALA SOBRE O BRASIL | GRINGA FALA PORTUGUÊS!",
+            "url": "https://www.youtube.com/watch?v=tkJya4mSrb4"
           },
           {
-            "titulo": "A mágica do Aprendizado",
-            "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+            "titulo": "RUSSA COME FRUTAS BRASILEIRAS EXÓTICAS | REAÇÃO DE GRINGA A FRUTAS DO BRASIL",
+            "url": "https://www.youtube.com/watch?v=5OzZfzah_14"
           },
           {
-            "titulo": "Como aprender a programar?",
-            "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+            "titulo": "O QUE RUSSOS PENSAM DO BRASIL? | O QUE RUSSOS PESQUISAM SOBRE O BRASIL NA INTERNET",
+            "url": "https://www.youtube.com/watch?v=oS_phWqymx8"
+          },
+          {
+            "titulo": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
+            "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
           }
         ]
       }
