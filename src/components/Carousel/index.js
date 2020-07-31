@@ -1,5 +1,5 @@
 import React from "react";
-import { VideoCardGroupContainer, VideoCardList, ExtraLink, Title } from "./style";
+import { VideoCardGroupContainer, ExtraLink, Title } from "./style";
 import VideoCard from "./VideoCard";
 import Slider, { SliderItem } from "./Slider";
 
