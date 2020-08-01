@@ -39,7 +39,7 @@ export default function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_API = 'http://localhost:3002/categorias';
+    const URL_API = 'http://localhost:8080/categorias';
     fetch(URL_API).then(async (data) => {
       const response = await data.json();
       setCategories([
