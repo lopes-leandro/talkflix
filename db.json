@@ -1,0 +1,22 @@
+{
+    "categorias": [
+        {
+        "id": 1,
+        "title": "Curso de Inglês",
+        "description": "",
+        "color": ""
+        },
+        {
+            "id": 2,
+            "title": "Curso de Chines",
+            "description": "",
+            "color": ""    
+        },
+        {
+            "id": 3,
+            "title": "Curso de Russo",
+            "description": "",
+            "color": ""    
+        }
+    ]
+}

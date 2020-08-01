@@ -1,112 +1,131 @@
-import React, {useState} from "react";
-import { Link } from "react-router-dom";
-import LayoutMaster from "./../../../components/LayoutMaster";
-import FormField from "../../../components/FormField";
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import LayoutMaster from '../../../components/LayoutMaster';
+import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 export default function CadastroCategoria() {
+  const fields = {
+    id: 0,
+    title: '',
+    description: '',
+    color: '#FFFFFF',
+  };
+  const [categories, setCategories] = useState([]);
+  const [values, setValues] = useState(fields);
 
-    const fields = {
-        title: '',
-        description: '',
-        color: '#FFFFFF',
-    };
-    const [categories, setCategories] = useState([]);
-    const [values, setValues] = useState(fields);
+  function setValue(key, value) {
+    setValues({
+      ...values,
+      [key]: value,
+    });
+  }
 
-    function setValue(key, value) {
-        setValues({
-            ...values,
-            [key]: value,
-        })
-    }
+  function changeField(event) {
+    const { name, value } = event.target;
+    setValue(
+      name,
+      value,
+    );
+  }
 
-    function changeField(event) {
-        const {name, value} = event.target;
-        setValue(
-            name, 
-            value,
-        );
-    }
+  function submitHandler(event) {
+    event.preventDefault();
+    setCategories([
+      ...categories,
+      values,
+    ]);
+    setValues(fields);
+  }
 
-    function submitHandler(event) {
-        event.preventDefault();
-        setCategories([
-            ...categories,
-            values
-        ]);
-        setValues(fields);
-    }
+  useEffect(() => {
+    const URL_API = 'http://localhost:3002/categorias';
+    fetch(URL_API).then(async (data) => {
+      const response = await data.json();
+      setCategories([
+        ...response,
+      ]);
+    });
+  }, []);
 
-    return (
-        <LayoutMaster>
-            <h1>Cadastro de Categoria</h1>
-            <form onSubmit={submitHandler}>
-                <FormField 
-                    label="Nome da Categoria" 
-                    value={values.title} 
-                    onChange={changeField}
-                    type="text"
-                    name="title"/>
-                {/* <div>
+  return (
+    <LayoutMaster>
+      <h1>Cadastro de Categoria</h1>
+      <form onSubmit={submitHandler}>
+        <FormField
+          label="Nome da Categoria"
+          value={values.title}
+          onChange={changeField}
+          type="text"
+          name="title"
+        />
+        {/* <div>
                     <label>
                         Nome da Categoria:
-                        <input 
+                        <input
                             type="text"
                             name="title"
                             value={values.title}
                             onChange={changeField}/>
                     </label>
                 </div> */}
-                <FormField 
-                    label="Descrição" 
-                    value={values.description} 
-                    onChange={changeField}
-                    type="textarea"
-                    name="description"/>
-                {/* <div>
+        <FormField
+          label="Descrição"
+          value={values.description}
+          onChange={changeField}
+          type="textarea"
+          name="description"
+        />
+        {/* <div>
                     <label>
                         Descrição:
-                        <textarea 
+                        <textarea
                             type="text"
                             name="description"
                             value={values.description}
                             onChange={changeField}/>
                     </label>
                 </div> */}
-                <FormField 
-                    label="Cor" 
-                    value={values.color} 
-                    onChange={changeField}
-                    type="color"
-                    name="title"/>
-                {/* <div>                
+        <FormField
+          label="Cor"
+          value={values.color}
+          onChange={changeField}
+          type="color"
+          name="color"
+        />
+        {/* <div>
                     <label>
                         Cor:
-                        <input 
+                        <input
                             type="color"
                             name="color"
                             value={values.color}
                             onChange={changeField}/>
                     </label>
                 </div>         */}
-                <button>
-                    Cadastrar
-                </button>
-            </form>
-            <ul>
-                {
-                    categories.map((category, index) => {
-                        return (
-                            <li key={`${index}`}>
-                                {category.title}
-                            </li>
-                        )
-                    })
-                }
-            </ul>
-            <Link to="/">
-                Voltar
-            </Link>
-        </LayoutMaster>
-    )
+        <Button>
+          Cadastrar
+        </Button>
+      </form>
+      {
+          categories.length === 0 && (
+          <div>
+            Loading...
+          </div>
+          )
+      }
+      <ul>
+        {
+            categories.map((category) => (
+              <li key={`${category.title}`}>
+                {category.title}
+              </li>
+            ))
+        }
+      </ul>
+      <Link to="/">
+        Voltar
+      </Link>
+    </LayoutMaster>
+  );
 }
