@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import LayoutMaster from '../../../components/LayoutMaster';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForms';
 
 export default function CadastroCategoria() {
   const fields = {
@@ -12,22 +13,7 @@ export default function CadastroCategoria() {
     color: '#FFFFFF',
   };
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(fields);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function changeField(event) {
-    const { name, value } = event.target;
-    setValue(
-      name,
-      value,
-    );
-  }
+  const { values, changeField, clearForn } = useForm(fields);
 
   function submitHandler(event) {
     event.preventDefault();
@@ -35,12 +21,12 @@ export default function CadastroCategoria() {
       ...categories,
       values,
     ]);
-    setValues(fields);
+    clearForn(fields);
   }
 
   useEffect(() => {
     const URL_API = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
+      ? 'http://localhost:8080/categories'
       : 'https://talkflix.herokuapp.com/categorias';
     fetch(URL_API).then(async (data) => {
       const response = await data.json();
