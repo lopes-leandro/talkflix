@@ -1,22 +1,226 @@
 {
-    "categorias": [
-        {
-        "id": 1,
-        "title": "Curso de Inglês",
-        "description": "",
-        "color": ""
-        },
-        {
-            "id": 2,
-            "title": "Curso de Chines",
-            "description": "",
-            "color": ""    
-        },
-        {
-            "id": 3,
-            "title": "Curso de Russo",
-            "description": "",
-            "color": ""    
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "title": "Inglês com Ask Jackie",
+      "link": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg",
+      "color": "#6BD1FF",
+      "link_extra": {
+        "text": "Canal da Ask Jackie no YouTube",
+        "url": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Low Code",
+      "color": "#00C86F",
+      "link_extra": {
+        "text": "Cursos de OutSystems com RafaOutSystems",
+        "url": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Salesforce",
+      "color": "#9cd33b",
+      "link_extra": {
+        "text": "Canal Salesforce Brasil",
+        "url": "https://www.youtube.com/c/CanalSalesforceBrasil/videos"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Bike",
+      "color": "red",
+      "link_extra": {
+        "text": "Owlaps",
+        "url": "https://www.youtube.com/c/owlaps/videos"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Cultura Russa",
+      "color": "#6b5be2",
+      "link_extra": {
+        "text": "Canal Olga Do Brasil",
+        "url": "https://www.youtube.com/channel/UCAdWun5RCSwqE-n1FC9bpcQ"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Aprenda o PRESENT PERFECT com U2! Feat. Miss Jill",
+      "url": "https://www.youtube.com/watch?v=36KQTSrunbo"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "'You CAN talk?' ou 'You CAN'T talk?' - A pronúncia de CAN e CAN'T!",
+      "url": "https://www.youtube.com/watch?v=GPFqiyPYIhU"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Qual é a diferença entre OTHER e ANOTHER?",
+      "url": "https://www.youtube.com/watch?v=OlowLiigZ3k"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "'TWO,' 'TO' e 'TOO' NÃO têm a mesma pronúncia!",
+      "url": "https://www.youtube.com/watch?v=yN4fqHT-UtU"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Qual é a diferença entre SOME and ANY?",
+      "url": "https://www.youtube.com/watch?v=zsUkXcYMZgk"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Quando comida NÃO é comida em inglês! 10 Expressões idiomáticas com comida!",
+      "url": "https://www.youtube.com/watch?v=Q-A60yx1yEw"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "title": "Qual é a diferença entre SOME and ANY?",
+      "url": "https://www.youtube.com/watch?v=zsUkXcYMZgk"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "SIM: Programação Low-Code é o futuro!",
+      "url": "https://www.youtube.com/watch?v=Y0-YV669sks"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "title": "Realizando validações com Core Server-Side (OutSystems Low Code - Visual Development)",
+      "url": "https://www.youtube.com/watch?v=jQxHeVf2grc"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "title": "Desativando as validações",
+      "url": "https://www.youtube.com/watch?v=5knWrxKQklQ"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "title": "Monitoramento de aplicações nativo e descomplicado!",
+      "url": "https://www.youtube.com/watch?v=UaXMhYpmxGY"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "title": "Como as Roles funcionam na Plataforma OutSystems - RafaOutSystems",
+      "url": "https://www.youtube.com/watch?v=HhEDQjvRnGM"
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "title": "BEFORE TRIGGERS EM FLOWS - Spring '20 🏹 | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=cEjJpWUpSsM"
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "title": "CRIE OBJETOS NO SALESFORCE À PARTIR DE UMA PLANILHA | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=aixGclakGJA"
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "title": "🚨 ATUALIZAÇÃO CRÍTICA: NOVO APLICATIVO MÓVEL SALESFORCE 📱 | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=vHVckAeNrHo"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "title": "SISTEMA DE GERENCIAMENTO DE CONTEÚDO (CMS) NO SALESFORCE | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=deqvBX8Lv0k"
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "title": "⚡ CONVERSOR DE CONFIGURAÇÕES DO LIGHTNING: TUDO EM UM SÓ LUGAR! 😍 | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=WINYZ1Op9tw"
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "title": "UTILIZE AURA DESIGN TOKENS NOS SEUS LIGHTNING WEB COMPONENTS | Canal Salesforce Brasil",
+      "url": "https://www.youtube.com/watch?v=ulHagc2aMQg"
+    },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "title": "PANORAMIQUE, Chamrousse bike park, France",
+      "url": "https://www.youtube.com/watch?v=Oa5OJtq857E"
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "title": "LE LOQUET, Champéry bike park, Switzerland",
+      "url": "https://www.youtube.com/watch?v=fe-16CY2dtM"
+    },
+    {
+      "id": 21,
+      "categoryId": 4,
+      "title": "Final run #2: MAXIAVALANCHE AX 3 DOMAINES 2019 (round #4) Mass start Europe Cup",
+      "url": "https://www.youtube.com/watch?v=PMslx-Lf4qI"
+    },
+    {
+      "id": 22,
+      "categoryId": 4,
+      "title": "MEGAVALANCHE 2019 WITH BROKEN SHIFTER & CRASHES! The craziest MTB massstart in the world",
+      "url": "https://www.youtube.com/watch?v=wYIvxEayJQE"
+    },
+    {
+      "id": 23,
+      "categoryId": 4,
+      "title": "BARRAGE, La Bresse bike park, France",
+      "url": "https://www.youtube.com/watch?v=_fCqb9yikuw"
+    },
+    {
+      "id": 24,
+      "categoryId": 5,
+      "title": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
+      "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
+    },
+    {
+      "id": 25,
+      "categoryId": 5,
+      "title": "HÁBITOS BRASILEIROS MUITO ESTRANHOS | RUSSA EM CHOQUE | GRINGA FALA PORTUGUÊS! (субтитры)",
+      "url": "https://www.youtube.com/watch?v=76kAcvT-8ZM"
+    },
+    {
+      "id": 26,
+      "categoryId": 5,
+      "title": "POR QUE EU AMO O BRASIL | GRINGA RUSSA FALA SOBRE O BRASIL | GRINGA FALA PORTUGUÊS!",
+      "url": "https://www.youtube.com/watch?v=tkJya4mSrb4"
+    },
+    {
+      "id": 27,
+      "categoryId": 5,
+      "title": "RUSSA COME FRUTAS BRASILEIRAS EXÓTICAS | REAÇÃO DE GRINGA A FRUTAS DO BRASIL",
+      "url": "https://www.youtube.com/watch?v=5OzZfzah_14"
+    },
+    {
+      "id": 28,
+      "categoryId": 5,
+      "title": "O QUE RUSSOS PENSAM DO BRASIL? | O QUE RUSSOS PESQUISAM SOBRE O BRASIL NA INTERNET",
+      "url": "https://www.youtube.com/watch?v=oS_phWqymx8"
+    },
+    {
+      "id": 29,
+      "categoryId": 5,
+      "title": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
+      "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
+    }
+  ]
 }
