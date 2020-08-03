@@ -4,6 +4,7 @@ import LayoutMaster from '../../../components/LayoutMaster';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForms';
+import Icon from '../../../components/Icones';
 
 export default function CadastroCategoria() {
   const fields = {
@@ -47,16 +48,6 @@ export default function CadastroCategoria() {
           type="text"
           name="title"
         />
-        {/* <div>
-                    <label>
-                        Nome da Categoria:
-                        <input
-                            type="text"
-                            name="title"
-                            value={values.title}
-                            onChange={changeField}/>
-                    </label>
-                </div> */}
         <FormField
           label="Descrição"
           value={values.description}
@@ -64,16 +55,6 @@ export default function CadastroCategoria() {
           type="textarea"
           name="description"
         />
-        {/* <div>
-                    <label>
-                        Descrição:
-                        <textarea
-                            type="text"
-                            name="description"
-                            value={values.description}
-                            onChange={changeField}/>
-                    </label>
-                </div> */}
         <FormField
           label="Cor"
           value={values.color}
@@ -81,18 +62,19 @@ export default function CadastroCategoria() {
           type="color"
           name="color"
         />
-        {/* <div>
-                    <label>
-                        Cor:
-                        <input
-                            type="color"
-                            name="color"
-                            value={values.color}
-                            onChange={changeField}/>
-                    </label>
-                </div>         */}
         <Button>
+          <Icon.PlusIcon
+            fill="#fff"
+            width={18}
+          />
           Cadastrar
+        </Button>
+        <Button as={Link} to="/">
+          <Icon.BackIcon
+            fill="#fff"
+            width={18}
+          />
+          Voltar
         </Button>
       </form>
       {
@@ -102,7 +84,7 @@ export default function CadastroCategoria() {
           </div>
           )
       }
-      <ul>
+      {/* <ul>
         {
             categories.map((category) => (
               <li key={`${category.title}`}>
@@ -110,10 +92,46 @@ export default function CadastroCategoria() {
               </li>
             ))
         }
-      </ul>
-      <Link to="/">
-        Voltar
-      </Link>
+      </ul> */}
+      {
+      categories.length >= 1 && (
+        <table style={{ width: '100%', paddingTop: '2%' }}>
+          <thead>
+            <tr style={{ borderBottom: '1px solid #f9f9f9' }}>
+              <th scope="col">Título</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Cor</th>
+              <th scope="col"> </th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              categories.map((category) => (
+                <tr>
+                  <td>{category.title}</td>
+                  <td>{category.link_extra.text}</td>
+                  <td><input type="color" aria-disabled="false" disabled="false" style={{ width: '100%' }} value={category.color} /></td>
+                  <td>
+                    <Link to="/">
+                      <Icon.PencilIcon
+                        fill="#fff"
+                        width={18}
+                      />
+                    </Link>
+                    <Link to="/">
+                      <Icon.MinusIcon
+                        fill="#fff"
+                        width={18}
+                      />
+                    </Link>
+                  </td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      )
+    }
     </LayoutMaster>
   );
 }
