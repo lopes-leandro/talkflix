@@ -27,7 +27,7 @@ export default function CadastroCategoria() {
   useEffect(() => {
     const URL_API = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categories'
-      : 'https://talkflix.herokuapp.com/categorias';
+      : 'https://talkflix.herokuapp.com/categories';
     fetch(URL_API).then(async (data) => {
       const response = await data.json();
       setCategories([
