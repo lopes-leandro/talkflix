@@ -13,7 +13,6 @@ export default function Home() {
   useEffect(() => {
     categoriesRepository.getAllWithVideos()
       .then((categories) => {
-        console.log(categories);
         setDataBase(categories);
       }).catch((err) => {
         console.log(err.message);

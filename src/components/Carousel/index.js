@@ -49,6 +49,11 @@ export default function VideoCardGroup({ ignoreFirstVideo, category }) {
   );
 }
 
+VideoCardGroup.defaultProps = {
+  category: [],
+  ignoreFirstVideo: false,
+};
 VideoCardGroup.propTypes = {
-  category: PropTypes.object.isRequired,
-}
+  category: PropTypes.arrayOf(PropTypes.array),
+  ignoreFirstVideo: PropTypes.bool,
+};
