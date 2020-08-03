@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "title": "Inglês com Ask Jackie",
+      "title": "Dicas de Inglês com Ask Jackie",
       "link": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg",
       "color": "#6BD1FF",
       "link_extra": {
@@ -12,38 +12,38 @@
     },
     {
       "id": 2,
-      "title": "Low Code",
+      "title": "Curso de Francês A1",
       "color": "#00C86F",
       "link_extra": {
-        "text": "Cursos de OutSystems com RafaOutSystems",
-        "url": "https://www.youtube.com/channel/UCY5Yot8oWVLqmfzakhE4qUg"
+        "text": "Vai viajar para França e vai falar Inglês!!!",
+        "url": "https://www.youtube.com/watch?v=e9B31E6OgqY&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=1"
       }
     },
     {
       "id": 3,
-      "title": "Salesforce",
+      "title": "Curso de Chinês",
       "color": "#9cd33b",
       "link_extra": {
-        "text": "Canal Salesforce Brasil",
-        "url": "https://www.youtube.com/c/CanalSalesforceBrasil/videos"
+        "text": "Mandarim não é difícil, é apenas diferente!!!",
+        "url": "https://www.youtube.com/watch?v=dfDMYVVwAuA&t=382s"
       }
     },
     {
       "id": 4,
-      "title": "Bike",
+      "title": "Curso de Holandês - A1",
       "color": "red",
       "link_extra": {
-        "text": "Owlaps",
-        "url": "https://www.youtube.com/c/owlaps/videos"
+        "text": "Vamos apresender Holandês?",
+        "url": "https://www.youtube.com/watch?v=GWOinrqs72I&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=40"
       }
     },
     {
       "id": 5,
-      "title": "Cultura Russa",
+      "title": "Curso de Russo",
       "color": "#6b5be2",
       "link_extra": {
-        "text": "Canal Olga Do Brasil",
-        "url": "https://www.youtube.com/channel/UCAdWun5RCSwqE-n1FC9bpcQ"
+        "text": "Que tal viajar para a Russia e se comunicar com os locais?",
+        "url": "https://www.youtube.com/watch?v=sB0_S7LlYUs&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=1"
       }
     }
   ],
@@ -93,134 +93,212 @@
     {
       "id": 8,
       "categoryId": 2,
-      "title": "SIM: Programação Low-Code é o futuro!",
-      "url": "https://www.youtube.com/watch?v=Y0-YV669sks"
+      "title": "AULA 01",
+      "url": "https://www.youtube.com/watch?v=e9B31E6OgqY&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=1"
     },
     {
       "id": 9,
       "categoryId": 2,
-      "title": "Realizando validações com Core Server-Side (OutSystems Low Code - Visual Development)",
-      "url": "https://www.youtube.com/watch?v=jQxHeVf2grc"
+      "title": "AULA 02",
+      "url": "https://www.youtube.com/watch?v=4SLc0UTWKbs&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=2"
     },
     {
       "id": 10,
       "categoryId": 2,
-      "title": "Desativando as validações",
-      "url": "https://www.youtube.com/watch?v=5knWrxKQklQ"
+      "title": "AULA 03",
+      "url": "https://www.youtube.com/watch?v=7vIBCS7hReY&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=3"
     },
     {
       "id": 11,
       "categoryId": 2,
-      "title": "Monitoramento de aplicações nativo e descomplicado!",
-      "url": "https://www.youtube.com/watch?v=UaXMhYpmxGY"
+      "title": "AULA 04",
+      "url": "https://www.youtube.com/watch?v=HhhzkcHSUFk&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=5"
     },
     {
       "id": 12,
       "categoryId": 2,
-      "title": "Como as Roles funcionam na Plataforma OutSystems - RafaOutSystems",
-      "url": "https://www.youtube.com/watch?v=HhEDQjvRnGM"
+      "title": "AULA 05",
+      "url": "https://www.youtube.com/watch?v=N_6UdzayqLM&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=6"
     },
     {
       "id": 13,
-      "categoryId": 3,
-      "title": "BEFORE TRIGGERS EM FLOWS - Spring '20 🏹 | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=cEjJpWUpSsM"
+      "categoryId": 2,
+      "title": "AULA 06",
+      "url": "https://www.youtube.com/watch?v=IOL07SIdYZ8&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=4"
     },
     {
       "id": 14,
-      "categoryId": 3,
-      "title": "CRIE OBJETOS NO SALESFORCE À PARTIR DE UMA PLANILHA | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=aixGclakGJA"
+      "categoryId": 2,
+      "title": "AULA 07",
+      "url": "https://www.youtube.com/watch?v=Ye0_coOdazI&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=7"
     },
     {
       "id": 15,
-      "categoryId": 3,
-      "title": "🚨 ATUALIZAÇÃO CRÍTICA: NOVO APLICATIVO MÓVEL SALESFORCE 📱 | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=vHVckAeNrHo"
+      "categoryId": 2,
+      "title": "AULA 08",
+      "url": "https://www.youtube.com/watch?v=SR-2QI-LkPc&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=9"
     },
     {
       "id": 16,
-      "categoryId": 3,
-      "title": "SISTEMA DE GERENCIAMENTO DE CONTEÚDO (CMS) NO SALESFORCE | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=deqvBX8Lv0k"
+      "categoryId": 2,
+      "title": "AULA 09",
+      "url": "https://www.youtube.com/watch?v=8kw27cZjCPE&list=RDCMUCuOmarXDx32LSdss5XG-lUA&index=8"
     },
     {
       "id": 17,
       "categoryId": 3,
-      "title": "⚡ CONVERSOR DE CONFIGURAÇÕES DO LIGHTNING: TUDO EM UM SÓ LUGAR! 😍 | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=WINYZ1Op9tw"
+      "title": "Aula 01",
+      "url": "https://www.youtube.com/watch?v=dfDMYVVwAuA&t=382s"
     },
     {
       "id": 18,
       "categoryId": 3,
-      "title": "UTILIZE AURA DESIGN TOKENS NOS SEUS LIGHTNING WEB COMPONENTS | Canal Salesforce Brasil",
-      "url": "https://www.youtube.com/watch?v=ulHagc2aMQg"
+      "title": "Aula 02",
+      "url": "https://www.youtube.com/watch?v=ds55xl4Q9ns"
     },
     {
       "id": 19,
-      "categoryId": 4,
-      "title": "PANORAMIQUE, Chamrousse bike park, France",
-      "url": "https://www.youtube.com/watch?v=Oa5OJtq857E"
+      "categoryId": 3,
+      "title": "Aula 03",
+      "url": "https://www.youtube.com/watch?v=qHvyyX-u-54"
     },
     {
       "id": 20,
-      "categoryId": 4,
-      "title": "LE LOQUET, Champéry bike park, Switzerland",
-      "url": "https://www.youtube.com/watch?v=fe-16CY2dtM"
+      "categoryId": 3,
+      "title": "Aula 04",
+      "url": "https://www.youtube.com/watch?v=Skf6J-3nkUc&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=5"
     },
     {
       "id": 21,
-      "categoryId": 4,
-      "title": "Final run #2: MAXIAVALANCHE AX 3 DOMAINES 2019 (round #4) Mass start Europe Cup",
-      "url": "https://www.youtube.com/watch?v=PMslx-Lf4qI"
+      "categoryId": 3,
+      "title": "Aula 05",
+      "url": "https://www.youtube.com/watch?v=qDBfsenkLt8&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=6"
     },
     {
       "id": 22,
-      "categoryId": 4,
-      "title": "MEGAVALANCHE 2019 WITH BROKEN SHIFTER & CRASHES! The craziest MTB massstart in the world",
-      "url": "https://www.youtube.com/watch?v=wYIvxEayJQE"
+      "categoryId": 3,
+      "title": "Aula 06",
+      "url": "https://www.youtube.com/watch?v=9Hn0LssCiBw&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=7"
     },
     {
       "id": 23,
-      "categoryId": 4,
-      "title": "BARRAGE, La Bresse bike park, France",
-      "url": "https://www.youtube.com/watch?v=_fCqb9yikuw"
+      "categoryId": 3,
+      "title": "Aula 07",
+      "url": "https://www.youtube.com/watch?v=b883q-rNqPA&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=8"
     },
     {
       "id": 24,
-      "categoryId": 5,
-      "title": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
-      "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
+      "categoryId": 3,
+      "title": "Aula 08",
+      "url": "https://www.youtube.com/watch?v=CfFXkYdUBVQ&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=9"
     },
     {
       "id": 25,
-      "categoryId": 5,
-      "title": "HÁBITOS BRASILEIROS MUITO ESTRANHOS | RUSSA EM CHOQUE | GRINGA FALA PORTUGUÊS! (субтитры)",
-      "url": "https://www.youtube.com/watch?v=76kAcvT-8ZM"
+      "categoryId": 3,
+      "title": "Aula 09",
+      "url": "https://www.youtube.com/watch?v=SRnmlnWB_9g&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=10"
     },
     {
       "id": 26,
-      "categoryId": 5,
-      "title": "POR QUE EU AMO O BRASIL | GRINGA RUSSA FALA SOBRE O BRASIL | GRINGA FALA PORTUGUÊS!",
-      "url": "https://www.youtube.com/watch?v=tkJya4mSrb4"
+      "categoryId": 3,
+      "title": "Aula 10",
+      "url": "https://www.youtube.com/watch?v=9Hn0LssCiBw&list=PLSA_5IcZ3282g5B1luYSP6IxPaLigxErG&index=7"
     },
     {
       "id": 27,
-      "categoryId": 5,
-      "title": "RUSSA COME FRUTAS BRASILEIRAS EXÓTICAS | REAÇÃO DE GRINGA A FRUTAS DO BRASIL",
-      "url": "https://www.youtube.com/watch?v=5OzZfzah_14"
+      "categoryId": 4,
+      "title": "Aula 01",
+      "url": "https://www.youtube.com/watch?v=GWOinrqs72I&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=40"
     },
     {
       "id": 28,
-      "categoryId": 5,
-      "title": "O QUE RUSSOS PENSAM DO BRASIL? | O QUE RUSSOS PESQUISAM SOBRE O BRASIL NA INTERNET",
-      "url": "https://www.youtube.com/watch?v=oS_phWqymx8"
+      "categoryId": 4,
+      "title": "Aula 02",
+      "url": "https://www.youtube.com/watch?v=ri-qIor8l4Q&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=39"
     },
     {
       "id": 29,
+      "categoryId": 4,
+      "title": "Aula 03",
+      "url": "https://www.youtube.com/watch?v=8rmoejUSBqg&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=38"
+    },
+    {
+      "id": 30,
+      "categoryId": 4,
+      "title": "Aula 04",
+      "url": "https://www.youtube.com/watch?v=LQoO69-VNhk&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=37"
+    },
+    {
+      "id": 31,
+      "categoryId": 4,
+      "title": "Aula 05",
+      "url": "https://www.youtube.com/watch?v=kegyvDILizs&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=36"
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "title": "Aula 06",
+      "url": "https://www.youtube.com/watch?v=5cqC-oqj_y8&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=35"
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "title": "Aula 07",
+      "url": "https://www.youtube.com/watch?v=j7pjmKvoCwI&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=33"
+    },
+    {
+      "id": 34,
+      "categoryId": 4,
+      "title": "Aula 08",
+      "url": "https://www.youtube.com/watch?v=axHGOnTFOYI&list=PLkDR9NEi6G-e2WcbbOQ9wFiKv7348nbdq&index=34"
+    },
+    {
+      "id": 35,
       "categoryId": 5,
-      "title": "RUSSA EM CHOQUE | COISAS QUE SUPREENDERAM UMA GRINGA NO BRASIL | GRINGA FALA PORTUGUÊS!",
-      "url": "https://www.youtube.com/watch?v=qIkl3f5qSVA"
+      "title": "Aula 01",
+      "url": "https://www.youtube.com/watch?v=sB0_S7LlYUs&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=1"
+    },
+    {
+      "id": 36,
+      "categoryId": 5,
+      "title": "Aula 02",
+      "url": "https://www.youtube.com/watch?v=ncRQwUMWXTo&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=2"
+    },
+    {
+      "id": 37,
+      "categoryId": 5,
+      "title": "Aula 03",
+      "url": "https://www.youtube.com/watch?v=xsLC43OBYP0&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=3"
+    },
+    {
+      "id": 38,
+      "categoryId": 5,
+      "title": "Aula 04",
+      "url": "https://www.youtube.com/watch?v=-iszeMsG-oo&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=4"
+    },
+    {
+      "id": 39,
+      "categoryId": 5,
+      "title": "Aula 05",
+      "url": "https://www.youtube.com/watch?v=mscp5DlxP-8&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=5"
+    },
+    {
+      "id": 40,
+      "categoryId": 5,
+      "title": "Aula 06",
+      "url": "https://www.youtube.com/watch?v=jaMBUP8tz-E&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=6"
+    },
+    {
+      "id": 41,
+      "categoryId": 5,
+      "title": "Aula 07",
+      "url": "https://www.youtube.com/watch?v=fuoM25pBycw&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=7"
+    },
+    {
+      "id": 42,
+      "categoryId": 5,
+      "title": "Aula 08",
+      "url": "https://www.youtube.com/watch?v=2xUCUiNqs_A&list=PLhf6OsQc9mI0iNsHdWe1JHF5Uk76Ke4_L&index=8"
     }
   ]
 }
