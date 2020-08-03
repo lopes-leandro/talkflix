@@ -12,9 +12,9 @@ export default function CadastroVideo() {
   const [categories, setCategories] = useState([]);
   const categoryTitle = categories.map(({ title }) => title);
   const { changeField, values } = useForm({
-    title: 'Tirem o Nordeste do Brasil',
-    url: 'https://www.youtube.com/watch?v=X7_BvWokRHo',
-    category: 'Salesforce',
+    title: '',
+    url: '',
+    category: '',
   });
 
   useEffect(() => {
@@ -24,7 +24,6 @@ export default function CadastroVideo() {
         setCategories(data);
       });
   }, []);
-  console.log(categories);
 
   return (
     <LayoutMaster>
@@ -44,7 +43,6 @@ export default function CadastroVideo() {
             url: values.url,
             categoryId: findCategory.id,
           }).then(() => {
-            console.log('cadastrado com sucesso!!!');
             history.push('/');
           });
         }
